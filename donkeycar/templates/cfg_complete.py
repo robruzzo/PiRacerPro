@@ -46,7 +46,7 @@ PCA9685_I2C_BUSNUM = None   #None will auto detect, which is fine on the pi. But
 DRIVE_TRAIN_TYPE = "SERVO_ESC" # SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|SERVO_HBRIDGE_PWM
 
 #STEERING
-STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
+STEERING_CHANNEL = 0            #channel on the 9685 pwm board 0-15
 STEERING_LEFT_PWM = 230         #pwm value for full left steering
 STEERING_RIGHT_PWM = 440        #pwm value for full right steering
 
