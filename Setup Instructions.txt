@@ -53,6 +53,7 @@ cd pi-display
 sudo ./install.sh
 
 Create donkeycar (example: car is named mycar and will be found in that directory)
+cd ~
 donkey createcar --path ~/mycar
 
 
